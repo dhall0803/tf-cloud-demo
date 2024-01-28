@@ -1,0 +1,17 @@
+# The name of the resource group in which to create the storage account
+resource_group_name = ""
+
+# The location/region in which to create the storage account
+# Default: "uksouth"
+location = "uksouth"
+
+# The name of the storage account
+storage_account_name = ""
+
+# Defines the Tier to use for this storage account (Standard or Premium)
+# Default: "Standard"
+account_tier = "Standard"
+
+# Defines the type of replication to use for this storage account (e.g., LRS, GRS, RAGRS, ZRS, GZRS)
+# Default: "LRS"
+replication_type = "LRS"
